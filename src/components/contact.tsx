@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Адрес',
-    content: 'г. Москва, ул. Тверская, 15',
-    subtitle: 'Метро Тверская, 2 мин пешком'
+    content: 'г. Калининград, ул. Советский проспект, 15',
+    subtitle: 'Центр города, рядом с площадью Победы'
   },
   {
     icon: Phone,
@@ -238,10 +238,10 @@ export function Contact() {
                   <MapPin className="w-16 h-16 text-primary mx-auto" />
                   <div>
                     <h3 className="text-xl font-semibold text-foreground">
-                      Мы находимся в центре Москвы
+                      Мы находимся в центре Калининграда
                     </h3>
                     <p className="text-muted-foreground">
-                      г. Москва, ул. Тверская, 15 (метро Тверская)
+                      г. Калининград, ул. Советский проспект, 15 (рядом с площадью Победы)
                     </p>
                   </div>
                   <Button variant="outline" className="mt-4">

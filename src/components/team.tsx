@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Star, Award, Calendar, Phone } from 'lucide-react'
 import { motion } from 'framer-motion'
+import doctorImage from '@/assets/doctor.jpg'
 
 const doctors = [
   {
@@ -11,7 +12,7 @@ const doctors = [
     specialty: 'Главный врач, имплантолог',
     experience: '15 лет',
     education: 'МГМСУ, США (Harvard)',
-    image: '/src/assets/doctor.jpg',
+    image: doctorImage,
     rating: 4.9,
     reviews: 245,
     specializations: ['Имплантация', 'Хирургия', 'Протезирование'],
@@ -23,7 +24,7 @@ const doctors = [
     specialty: 'Терапевт, эндодонт',
     experience: '12 лет',
     education: 'СПбГМУ, Германия (Charité)',
-    image: '/src/assets/doctor.jpg',
+    image: doctorImage,
     rating: 4.8,
     reviews: 189,
     specializations: ['Эндодонтия', 'Терапия', 'Эстетика'],
@@ -35,7 +36,7 @@ const doctors = [
     specialty: 'Ортодонт, детский врач',
     experience: '10 лет',
     education: 'РУДН, Швейцария (Zurich)',
-    image: '/src/assets/doctor.jpg',
+    image: doctorImage,
     rating: 4.9,
     reviews: 156,
     specializations: ['Ортодонтия', 'Детская стоматология', 'Брекеты'],
@@ -47,7 +48,7 @@ const doctors = [
     specialty: 'Пародонтолог, гигиенист',
     experience: '8 лет',
     education: 'РНИМУ, Италия (Milan)',
-    image: '/src/assets/doctor.jpg',
+    image: doctorImage,
     rating: 4.8,
     reviews: 134,
     specializations: ['Пародонтология', 'Гигиена', 'Профилактика'],
